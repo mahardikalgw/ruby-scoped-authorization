@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "scoped-authorization": {
-      "source": "mahardikalgw/scoped-authorization",
+      "source": "mahardikalgw/ruby-scoped-authorization",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/scoped-authorization.git
-ln -s "$PWD/scoped-authorization" .claude/skills/scoped-authorization
+git clone git@github.com:mahardikalgw/ruby-scoped-authorization.git
+ln -s "$PWD/ruby-scoped-authorization" .claude/skills/scoped-authorization
 ```
 
 ## When to activate
@@ -40,9 +40,10 @@ ln -s "$PWD/scoped-authorization" .claude/skills/scoped-authorization
 ## What's inside
 
 ```
-scoped-authorization/
+ruby-scoped-authorization/
   SKILL.md
   assets/authorization_sweep_test.rb
+  bin/check-skill
   references/denial-semantics.md
   references/isolation.md
 ```
@@ -62,8 +63,8 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`inertia-test-harness`](https://github.com/mahardikalgw/inertia-test-harness) — minitest + inertia helpers, builder objects, and system tests that do not flake
-- [`guarded-status-workflow`](https://github.com/mahardikalgw/guarded-status-workflow) — a declarative transition map, per-edge guards, one transaction, an event row
+- [`inertia-test-harness`](https://github.com/mahardikalgw/ruby-inertia-test-harness) — minitest + inertia helpers, builder objects, and system tests that do not flake
+- [`guarded-status-workflow`](https://github.com/mahardikalgw/ruby-guarded-status-workflow) — a declarative transition map, per-edge guards, one transaction, an event row
 
 ## Licence
 
